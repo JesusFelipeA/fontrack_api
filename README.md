@@ -34,26 +34,43 @@ Configura tu conexión en db.js:
         module.exports = connection;
         
 🌐 API REST - Endpoints
+
 📌 Usuarios (/usuarios):
+
 GET    /api/usuarios         → Obtener todos los usuarios
+
 GET    /api/usuarios/:id     → Obtener un usuario por ID
+
 POST   /api/usuarios         → Crear un nuevo usuario
+
 PUT    /api/usuarios/:id     → Actualizar un usuario
+
 DELETE /api/usuarios/:id     → Eliminar un usuario
 
 📌 Materiales (/materiales):
+
 GET    /api/materiales         → Obtener todos los materiales
+
 GET    /api/materiales/:id     → Obtener un material por ID
+
 POST   /api/materiales         → Crear un nuevo material
+
 PUT    /api/materiales/:id     → Actualizar un material
+
 DELETE /api/materiales/:id     → Eliminar un material
 
 📌 Lugares (/lugares):
+
 GET    /api/lugares         → Obtener todos los lugares
+
 GET    /api/lugares/:id     → Obtener un lugar por ID
+
 POST   /api/lugares         → Crear un nuevo lugar
+
 PUT    /api/lugares/:id     → Actualizar un lugar
+
 DELETE /api/lugares/:id     → Eliminar un lugar
+
 🔐 Middleware y Seguridad
 Middleware para permitir CORS:
 
@@ -73,10 +90,3 @@ http://localhost:3000
 🧪 Pruebas con Postman o Curl
 Puedes probar la API con Postman o curl. Ejemplo:
 curl -X GET http://localhost:3000/api/usuarios
-📌 Contribuciones
-1. Haz un fork del repositorio.
-2. Crea una rama con tu funcionalidad (git checkout -b feature-nueva).
-3. Haz tus cambios y sube la rama.
-4. Abre un Pull Request.
-📝 Licencia
-Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
